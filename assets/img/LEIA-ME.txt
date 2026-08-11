@@ -1,0 +1,11 @@
+Coloque aqui as imagens reais do site. Nomes esperados pelo código
+(veja os comentários em index.html indicando onde cada <img> deve
+substituir o placeholder atual):
+
+- hero.jpg            → imagem principal da seção "Hero"
+- bruno.jpg           → foto do Bruno na seção "Sobre"
+- og-cover.jpg        → imagem usada no compartilhamento (Open Graph), 1200x630px
+- galeria/foto-1.jpg, foto-2.jpg, ...  → fotos da seção "Galeria"
+
+Nenhuma imagem real foi incluída neste projeto — os espaços estão
+com placeholders visuais até que fotos reais sejam fornecidas.

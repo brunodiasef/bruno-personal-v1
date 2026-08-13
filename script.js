@@ -65,3 +65,12 @@ document.querySelectorAll('.ba-wrap').forEach(function(wrap){
   const baObs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)playIntro();}),{threshold:.3});
   baObs.observe(wrap);
 });
+
+// Depoimento expansível (SAIBA MAIS)
+document.querySelectorAll('.testimonialToggle').forEach(function(btn){
+  const full=btn.nextElementSibling;
+  btn.addEventListener('click',function(){
+    const isOpen=full.classList.toggle('open');
+    btn.textContent=isOpen?'VER MENOS ←':'SAIBA MAIS →';
+  });
+});
